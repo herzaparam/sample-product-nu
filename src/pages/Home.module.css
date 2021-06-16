@@ -1,0 +1,44 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container > h3 {
+    font-size: 2rem;
+}
+.container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 2em;
+}
+.search-bar {
+    padding: 1em;
+}
+.search-bar > button {
+    float: right;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-weight: 700;
+}
+.search-bar > button:hover {
+    background-color: #9500ff;
+}
+.search-bar > input {
+    height: 35px;
+    font-size: 30px;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.modal-body > label {
+    float: left;
+}

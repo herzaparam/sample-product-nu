@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 5px;
+}
+.top-sect > img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+}
+.bot-sect > h3 {
+    font-size: 2rem;
+}
+.bot-sect > h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.bot-sect > h5 {
+    font-size: 1.2rem;
+}
+.bot-sect-btn {
+    margin-top: 10px;
+    display: flex;
+}
+.bot-sect-btn > button {
+    margin-top: 15px;
+    padding: 3px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid indigo;
+    border-radius: 8px;
+    width: 30%;
+    margin: 0 5px;
+}
+.bot-sect-btn > button:hover {
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+.text {
+    font-weight: 700;
+    color: indigo;
+}
+.update-btn {
+    width: 30%;
+}
