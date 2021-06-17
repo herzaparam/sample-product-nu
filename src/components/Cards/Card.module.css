@@ -32,6 +32,7 @@
     font-weight: 700;
     outline: none;
     border: 1px solid indigo;
+    background-color: white;
     border-radius: 8px;
     width: 30%;
     margin: 0 5px;
@@ -47,4 +48,9 @@
 }
 .update-btn {
     width: 30%;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
 }

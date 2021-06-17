@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    padding: 2em;
+    width: 100%;
+}
+.sect-left {
+    flex-basis: 50%;
+    border: 1px solid grey;
+    padding: 1em 3em;
+    
+}
+.sect-left > img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+.sect-right {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.sect-left-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sect-left-part > h2, .sect-left-part > h3, .sect-left-part > h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.sect-left-part > p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+.sect-right > label {
+    text-align: left;
+}
+.sect-right > label {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.sect-right > input {
+    height: 35px;
+}
+.sect-right > button {
+    margin-top: 1em;
+}
